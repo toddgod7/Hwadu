@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>accommodationsim</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+
+</head>
+<body>
+
+<div class="w3-top">
+  <div class="w3-row w3-black">
+    <div class="w3-col m3">
+          <a href="index.html" style="text-decoration: none;"><img src="logo.jpg" style="height:30%;"></a>
+      </div>
+      <div class="w3-col m2">
+          <h2><a href="aboutsim.html" style="text-decoration: none;">饭店介绍</a></h2>
+      </div>
+      <div class="w3-col m2">
+          <h2><a href="accommodationsim.html" style="text-decoration: none;">客房介绍</a></h2>
+      </div>
+      <div class="w3-col m2">
+          <h2><a href="facilitiessim.html" style="text-decoration: none;">设备服务</a></h2>
+      </div>
+      <div class="w3-col m2">
+          <h2><a href="reservationsim.html" style="text-decoration: none;">线上订房</a></h2>
+      </div>
+      <div class="w3-col m1">
+          <h2 id="flip">☰</h2>
+          <div id="panel">
+            <p><a href="accommodationsim.html">簡體中文</a> <br> <a href="about.html" >繁體中文</a> <br> <a href="aboutjpn.html">日本語</a> <br> <a href="abouteng.html">English</a></p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<br><br><br>
+
+<div class="w3-containder">
+  <img src="accommodation.jpg" style="width:150%; height:150%;" class="w3-image">
+</div>
+
+<h2 style="text-align:center;color:blue; font-size:48px;">A.价目表</h2>
+<div class="w3-row-padding room">
+
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-third w3-margin-bottom">
+      <img src="single.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>标准单人房</h3>
+        <p align="left" class="style34">定价：NT2,400</p>
+        <p>床数：一張五呎大床</p>
+        <p>房间大小：約6坪</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="single.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>商务单人房</h3>
+        <p align="left" class="style34">定价：NT2,600</p>
+        <p>床数：一張五呎大床</p>
+        <p>房间大小：約7坪</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="single.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>豪华单人房</h3>
+        <p align="left" class="style34">定价：NT2,900</p>
+        <p>床数：一張五呎大床</p>
+        <p>房间大小：約8坪</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-third w3-margin-bottom">
+      <img src="double.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>商务双人房</h3>
+        <p align="left" class="style34">定价：NT2,900</p>
+        <p>床数：兩張三呎半小床</p>
+        <p>房间大小：約7坪</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="double.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>豪华双人房</h3>
+        <p align="left" class="style34">定价：NT3,200</p>
+        <p>床数：兩張四呎中床</p>
+        <p>房间大小：約7坪</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="triple.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>豪华三人房</h3>
+        <p align="left" class="style34">定价：NT3,900</p>
+        <p>床数：一張五呎大床＋一張四呎中床</p>
+        <p>房间大小：約8坪</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-padding-16">
+    
+    <div class="w3-third w3-margin-bottom">
+      <img src="quatle.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>豪华四人房</h3>
+        <p align="left" class="style34">定价：NT4,500</p>
+        <p>床数：兩張五呎大床</p>
+        <p>房间大小：約8坪</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="vip.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>VIP套房</h3>
+        <p align="left" class="style34">定价：NT8,800</p>
+        <p>床数：一張七呎大床</p>
+        <p>房间大小：約24坪</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+<hr>
+
+<h2 style="text-align:center;color:blue; font-size:48px;">B.完善设施</h2>
+<div class="w3-row">
+<div class="w3-col m2 w3-container">
+<p>
+
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+<i class="material-icons" style="font-size:72px;">tv</i><br>大萤幕32吋电视
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+<i class="fa fa-coffee" style="font-size:72px"></i><br>点心、咖啡、矿泉水免费招待
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+<i class="material-icons" style="font-size:72px;">local_phone</i><br>客房国际电话
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+<i class="material-icons" style="font-size:72px;">wifi</i><br>ADSL高速网路（有线／无线）
+</p>
+</div>
+
+
+<div class="w3-col m2 w3-container">
+<p>
+
+</p>
+</div>
+</div>
+
+<div class="w3-row">
+<div class="w3-col m2 w3-container">
+<p>
+
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+<i class="material-icons" style="font-size:72px;">live_tv</i><br>日本卫星频道
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+<i class="fa fa-bed" style="font-size:72px"></i><br>羽毛被枕
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+<i class="fa fa-shower" style="font-size:72px"></i><br>独立淋浴空间
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+<i class="material-icons" style="font-size:72px;">power_settings_new</i><br>恆温空调系统
+</p>
+</div>
+
+
+<div class="w3-col m2 w3-container">
+<p>
+
+</p>
+</div>
+</div>
+
+<div class="w3-row">
+<div class="w3-col m2 w3-container">
+<p>
+
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+<i class="material-icons" style="font-size:80px;">power</i><br>吹风机、电热式热水瓶、
+高级沐浴用品
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+<i class="fa fa-internet-explorer" style="font-size:60px"></i><br><br>个人工作桌、电脑专用插座、
+网路延长接线
+</p>
+</div>
+
+</div>
+
+<hr>
+
+<h2 style="text-align:center;color:blue; font-size:48px;">C.免费服务</h2>
+<div class="w3-row" style="text-align: justify; color:gray; background-color:lightblue">
+<div class="w3-col m2 w3-container">
+<p>
+
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+交谊厅提供每日中、日文报纸
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+每间客房免费宽频上网
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+中、西式自助式早餐
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+会议室中心、使用
+</p>
+</div>
+
+
+<div class="w3-col m2 w3-container">
+<p>
+
+</p>
+</div>
+</div>
+
+<div class="w3-row" style="color:gray;background-color:lightyellow">
+<div class="w3-col m2 w3-container">
+<p>
+
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+高尔夫球组预约外借
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+脚踏车外借
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+签约优惠厂商含免费每日洗衣等便利服务</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+24小时专人监控保险箱 
+</p>
+</div>
+
+
+<div class="w3-col m2 w3-container">
+<p>
+
+</p>
+</div>
+</div>
+
+<div class="w3-row" style="color:gray;background-color:lightblue">
+<div class="w3-col m2 w3-container">
+<p>
+
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+卫星电视 BS1、BS2、日本台、富士台
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+寄放行李
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+精緻迎宾点心、矿泉水</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+提供新鲜果汁、咖啡
+</p>
+</div>
+
+
+<div class="w3-col m2 w3-container">
+<p>
+
+</p>
+</div>
+</div>
+
+<div class="w3-row" style="color:gray;background-color:lightyellow">
+<div class="w3-col m2 w3-container">
+<p>
+
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+代订机票、代叫豪华专车、计程车
+</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+晨唤服务</p>
+</div>
+
+<div class="w3-col m2 w3-container">
+<p style="font-size:24px; text-align:center;">
+台南花园夜市及小北夜市免费接驳车
+
+</p>
+</div>
+
+</div>
+
+<hr>
+
+<footer class="w3-container w3-blue">
+  <p class="foot">台南‧華都商務飯店 HWA-DU HOTEL│台南市北區文賢路1192號│1192 , Wen-Shian Rd.Tainan, Taiwan, R.O.C.<br> TEL:06-259-8822 FAX:06-259-8855 | Line：hwadu│Skype：hwaduhotel│Mail：hwaduhotel@gmail.com <a href="https://www.facebook.com/hwadu" target="_blank"><i class="fa fa-facebook-official"></a></i></p>
+</footer>
+
+</body>
+</html>

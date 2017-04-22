@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>reservationjpn</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.colorbox.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+        
+$(".check").click(function(e) {
+  if (!$("#form1 input:checked")[0]) {
+    alert("キャンセルポリシーを読んでから、「上記キャンセル規約および注意事項に同意します。」をチェックしてください");
+    e.preventDefault();
+  }
+});
+});
+
+
+</script>
+
+
+
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+
+</head>
+<body>
+
+<div class="w3-top">
+  <div class="w3-row w3-black">
+    <div class="w3-col m3">
+          <a href="index.html" style="text-decoration: none;"><img src="logo.jpg" style="height:30%;"></a>
+      </div>
+      <div class="w3-col m2">
+          <h2><a href="aboutjpn.html" style="text-decoration: none;">ホテル紹介</a></h2>
+      </div>
+      <div class="w3-col m2">
+          <h2><a href="accommodationjpn.html" style="text-decoration: none;">客室紹介</a></h2>
+      </div>
+      <div class="w3-col m2">
+          <h2><a href="facilitiesjpn.html" style="text-decoration: none;">サービス紹介</a></h2>
+      </div>
+      <div class="w3-col m2">
+          <h2><a href="reservationjpn.html" style="text-decoration: none;">ご予約空室案内</a></h2>
+      </div>
+      <div class="w3-col m1">
+          <h2 id="flip">☰</h2>
+          <div id="panel">
+            <p><a href="aboutsim.html">簡體中文</a> <br> <a href="about.html" >繁體中文</a> <br> <a href="facilitiesjpn.html">日本語</a> <br> <a href="abouteng.html">English</a></p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<br><br><br>
+
+<div class="w3-containder">
+  <img src="reservation.jpg" style="width:150%; height:150%;" class="w3-image">
+</div>
+
+
+<h2 style="text-align:center;color:blue; font-size:48px;">A.一般宿泊プラン</h2>
+<div class="w3-row-padding room">
+
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-third w3-margin-bottom">
+      <img src="single.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3> ビジネスダブル</h3>
+        <p align="left" class="style34"><strike>NT-2,200</strike></p>
+        <p align="left" class="style33">平日NT 1,700</p>
+        <p align="left" class="style33">週末NT 1,900</p>
+        <p>ベット数:1</p>
+        <p>ベットサイズ:150cm X 180cm</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="double.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>ビジネスツイン</h3>
+        <p align="left" class="style34"><strike>NT-2,400</strike></p>
+        <p align="left" class="style33">平日NT 1,900</p>
+        <p align="left" class="style33">週末NT 2,100</p>
+        <p>ベット数:2</p>
+        <p>ベットサイズ:150cm X 180cm</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="triple.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>デラックストリプル</h3>
+        <p align="left" class="style34"><strike>NT-3,000</strike></p>
+        <p align="left" class="style33">平日NT 2,200</p>
+        <p align="left" class="style33">週末NT 2,700</p>
+        <p>ベット数:2</p>
+        <p>ベットサイズ:150cm X 180cm + 120cm X 180cm</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-padding-16">
+    
+    <div class="w3-col m4 w3-margin-bottom">
+      <img src="quatle.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>デラックスクワッド</h3>
+        <p align="left" class="style34"><strike>NT-3,500</strike></p>
+        <p align="left" class="style33">平日NT 2,500</p>
+        <p align="left" class="style33">週末NT 3,200</p>
+        <p>ベット数:2</p>
+        <p>ベットサイズ:150cm X 180cm</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom">
+      <img src="vip.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>VIP スイート</h3>
+        <p align="left" class="style34"><strike>NT-8,800</strike></p>
+        <p align="left" class="style33">平日NT 3,000</p>
+        <p align="left" class="style33">週末NT 3,800</p>
+        <p>ベット数:1</p>
+        <p>ベットサイズ:210cm X 210cm</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+<hr>
+
+<h2 style="text-align:center;color:blue; font-size:40px;">B.お得な宿泊プラン</h2>
+<h5 style="text-align:center;color:red; ">※予約のお問い合わせでご予約してください※</h5>
+
+<div class="w3-container">
+  <table class="w3-table w3-striped w3-centered">
+    <tr style="font-size:24px">
+      <th width="25%"><b>プラン一覧</b></th>
+      <th width="50%"><b>内容</b></th>
+      <th width="10%"><b>部屋タイプ</b></th>
+      <th width="15%"><b>料金</b></th>
+    </tr>
+    <tr>
+      <td style="font-size:40px;color:blue"><br>学生プラン</td>
+      <td style="text-align:left">1. 平日に学生達をお得な価格と住み心地がいいな部屋をご提供しております！
+<br>
+2. チェックインする時本人の学生ＩＤをフロントにお提示してください。 <br>
+3. 毎週の木、土、日曜日に、台南で一番大きな夜市、「花園夜市」への無料シャトルバスをご提供しております。<br>
+4. 朝食付きでございます。<br>
+5. 無料で自転車貸し出すことができます<br>
+6. 台湾の連休の日と土曜日にはこのプランを使えません。平日で一日二部屋限定。</td>
+      <td><br><br><br>ダブル</td>
+      <td><br><br><br><strike><span style="color:red">NT-2400</span></strike><br>NT-1200</td>
+    </tr>
+    <tr>
+      <td style="font-size:40px;color:blue">エコプラン</td>
+      <td style="text-align:left">1. 部屋の中で使い捨てのアメニティがご提供しておりません。<br>
+2. 毎週の木、土、日曜日に、台南で一番大きな夜市、「花園夜市」への無料シャトルバスをご提供しております。<br>
+3. 朝食付きでございます。<br>
+4. 無料で自転車貸し出すことができます。</td>
+      <td>ダブル<br><br><br>ツイン</td>
+      <td><strike><span style="color:red">NT-2400</span></strike><br>平日NT-1600<br><br><strike><span style="color:red">NT-2600</span></strike><br>平日NT-1800</td>
+    </tr>
+    <tr>
+      <td style="font-size:40px;color:blue"><br>ビスネスプラン</td>
+      <td style="text-align:left">1. 平日に出張するお客様にお得な価格をご提供しております。<br>
+2.  チェックインする時本人の名刺をフロントにお提示してください。<br>
+3. 朝食付きでございます。<br>
+4. 無料で自転車貸し出すことができます。<br>
+5. ホテルの地下室に無料の駐車場をご提供しております。<br>
+6. ホテルの一階にビスネスセンターと会議室がございます。<br>
+7. 全館に無料の無線ＬＡＮを使うことができます。<br>
+8. 台湾の連休の日と土曜日にはこのプランを使えません。</td>
+      <td><br>ダブル<br><br><br>ツイン房</td>
+      <td><strike><span style="color:red"><br>NT-2400</span></strike><br>NT-1500<br><br><strike><span style="color:red">NT-2600</span></strike><br>NT-1700</td>
+    </tr>
+  </table>
+</div>
+
+<hr>
+
+<h4 style="color:red; margin-left:30px;">※キャンセルポリシー※</h4>
+<div class="attention">
+
+      <p>キャンセルが到着日の三日前の午前０時（現地時間）までに行われた場合：無料。</p>
+      <p>キャンセル／変更が規定日時以降に行われた場合、</p>
+      <p>またはノーショー（無断キャンセル）の場合：一泊目の宿泊料金の１００％が課金されます。 </p>
+</div>
+
+<div class="confirm">
+<form id="form1" name="form1" method="post" action="">
+<input type="checkbox"> 上記キャンセル規約および注意事項に同意します。
+</form>
+
+<p class="check"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdsRGigDD25n0csx4Sg0QofyvtsQbohrFjlaX3ASNuRiebbFg/viewform" target="_blank">
+1. 予約のお問い合わせ</a></p>
+<p class="check"><a href="https://www.ezhotel.com.tw/hwadu/index.php?langtype=2" target="_blank">
+2. クレジットカードで先払いの予約</a></p>
+
+</div>
+
+<footer class="w3-container w3-blue">
+  <p class="foot">台南‧華都商務飯店 HWA-DU HOTEL│台南市北區文賢路1192號│1192 , Wen-Shian Rd.Tainan, Taiwan, R.O.C.<br> TEL:06-259-8822 FAX:06-259-8855 | Line：hwadu│Skype：hwaduhotel│Mail：hwaduhotel@gmail.com <a href="https://www.facebook.com/hwadu" target="_blank"><i class="fa fa-facebook-official"></a></i></p>
+</footer>
+
+</body>
+</html>

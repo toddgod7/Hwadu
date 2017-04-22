@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>reservation</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.colorbox.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+        
+$(".check").click(function(e) {
+  if (!$("#form1 input:checked")[0]) {
+    alert("請先閱讀取消訂房須知並點選「我已閱讀並同意以上取消訂房須知事項」");
+    e.preventDefault();
+  }
+});
+});
+
+
+</script>
+
+
+
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+
+</head>
+<body>
+
+<div class="w3-top">
+	<div class="w3-row w3-black">
+		<div class="w3-col m3">
+          <a href="index.html" style="text-decoration: none;"><img src="logo.jpg" style="height:30%;"></a>
+      </div>
+      <div class="w3-col m2">
+          <h2><a href="about.html" style="text-decoration: none;">飯店介紹</a></h2>
+      </div>
+      <div class="w3-col m2">
+          <h2><a href="accommodation.html" style="text-decoration: none;">客房介紹</a></h2>
+      </div>
+      <div class="w3-col m2">
+          <h2><a href="facilities.html" style="text-decoration: none;">設備服務</a></h2>
+      </div>
+      <div class="w3-col m2">
+          <h2><a href="reservation.html" style="text-decoration: none;">線上訂房</a></h2>
+      </div>
+    	<div class="w3-col m1">
+      		<h2 id="flip">☰</h2>
+      		<div id="panel">
+      			<p><a href="aboutsim.html">簡體中文</a> <br> <a href="reservation.html" >繁體中文</a> <br> <a href="aboutjpn.html">日本語</a> <br> <a href="abouteng.html">English</a></p>
+      		</div>
+    	</div>
+	</div>
+</div>
+
+<br><br><br>
+
+<div class="w3-containder">
+  <img src="reservation.jpg" style="width:150%; height:150%;" class="w3-image">
+</div>
+
+
+<h2 style="text-align:center;color:blue; font-size:48px;">A.一般住宿</h2>
+<div class="w3-row-padding room">
+
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-third w3-margin-bottom">
+      <img src="single.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>商務單人房</h3>
+        <p align="left" class="style34"><strike>NT-2,200</strike></p>
+        <p align="left" class="style33">平日NT 1,700</p>
+        <p align="left" class="style33">假日NT 1,900</p>
+        <p>1五呎大床</p>
+        <p>約7坪</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="double.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>商務雙人房</h3>
+        <p align="left" class="style34"><strike>NT-2,400</strike></p>
+        <p align="left" class="style33">平日NT 1,900</p>
+        <p align="left" class="style33">假日NT 2,100</p>
+        <p>2三呎半小床</p>
+        <p>約7坪</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="triple.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>豪華三人房</h3>
+        <p align="left" class="style34"><strike>NT-3,000</strike></p>
+        <p align="left" class="style33">平日NT 2,200</p>
+        <p align="left" class="style33">假日NT 2,700</p>
+        <p>1五呎大床+1四呎中床</p>
+        <p>約8坪</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-padding-16">
+    
+    <div class="w3-col m4 w3-margin-bottom">
+      <img src="quatle.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>豪華四人房</h3>
+        <p align="left" class="style34"><strike>NT-3,500</strike></p>
+        <p align="left" class="style33">平日NT 2,500</p>
+        <p align="left" class="style33">假日NT 3,200</p>
+        <p>2五呎大床</p>
+        <p>約8坪</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom">
+      <img src="vip.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>VIP套房</h3>
+        <p align="left" class="style34"><strike>NT-8,800</strike></p>
+        <p align="left" class="style33">平日NT 3,000</p>
+        <p align="left" class="style33">假日NT 3,800</p>
+        <p>1七呎大床</p>
+        <p>約24坪</p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+<hr>
+
+<h2 style="text-align:center;color:blue; font-size:40px;">B.優惠住宿方案</h2>
+<h5 style="text-align:center;color:red; ">※所有專案均不適用於農曆過年期間，如有不便敬請見諒※</h5>
+
+<div class="w3-container">
+  <table class="w3-table w3-striped w3-centered">
+    <tr style="font-size:24px">
+      <th width="25%"><b>活動名稱</b></th>
+      <th width="50%"><b>活動內容</b></th>
+      <th width="10%"><b>房型</b></th>
+      <th width="15%"><b>優惠價格</b></th>
+    </tr>
+    <tr>
+      <td style="font-size:40px;color:blue"><br>平日學生專案</td>
+      <td style="text-align:left">1. 提供學生們，平日最優惠的學生價及舒適的住宿！<br>
+2. 辦理CHECK-IN時，請出示【住宿客人本人的學生證】 <br>
+3. 星期四、六、日免費送您去全台人氣第1名的『花園夜市』朝聖，讓您們輕輕鬆鬆逛夜市！<br>
+4. 附贈自助式早餐<br>
+5. 提供免費腳踏車可輕鬆前往《四草潟湖》及 《安平老街+樹屋+自然水鳥公園》<br>
+6. 每日限量2間<br>
+7. 此專案不適用於星期六及連續假日</td>
+      <td><br><br><br>單人房<br>(可睡2人)</td>
+      <td><br><br><br><strike><span style="color:red">NT-2400</span></strike><br>NT-1200</td>
+    </tr>
+    <tr>
+      <td style="font-size:40px;color:blue"><br>環保專案</td>
+      <td style="text-align:left">1. 本活動客房內不提供一次性備品（牙刷、刮鬍刀、牙膏、梳子、浴帽 ），入住時請自備。<br>
+2. 在人人響應節能減碳的社會一起作環保吧！<br>
+3. 星期四、六、日免費送您去全台人氣第1名的『花園夜市』朝聖，讓您們輕輕鬆鬆逛夜市！<br>
+4. 附贈自助式早餐<br>
+5. 提供免費腳踏車可輕鬆前往《四草潟湖》及 《安平老街+樹屋+自然水鳥公園》<br>
+6. 每日限量2間</td>
+      <td><br>單人房<br>(可睡2人)<br><br><br>雙床房</td>
+      <td><strike><span style="color:red">NT-2400</span></strike><br>平日NT-1600<br>假日NT-1800<br><br><strike><span style="color:red">NT-2600</span></strike><br>平日NT-1800<br>假日NT-2000</td>
+    </tr>
+    <tr>
+      <td style="font-size:40px;color:blue">平日商務<br>出差專案</td>
+      <td style="text-align:left">1. 住宿1晚，一大床可睡2人，客房可無線上網<br>
+2. 辦理CHECK-IN時，請出示【住宿客人本人的名片】<br>
+3. 此專案不適用於星期六及連續假日<br>
+4. 附贈自助式早餐<br>
+5. 平面停車場，24H監控，但車位有限，恕無法替客人保留位置。</td>
+      <td>單人房<br>(可睡2人)<br><br>雙床房</td>
+      <td><strike><span style="color:red">NT-2400</span></strike><br>NT-1500<br><br><strike><span style="color:red">NT-2600</span></strike><br>NT-1700</td>
+    </tr>
+  </table>
+</div>
+
+<hr>
+
+<h4 style="color:red; margin-left:30px;">※取消訂房須知※</h4>
+<div class="attention">
+<p>根據消保法相關條例規定（</span><strong><a href="http://tinyurl.com/8tdu4z7" target="_blank">http://tinyurl.com/8tdu4z7</a></strong><span class="style138"></p>
+
+<p>旅客姓名  （以下簡稱甲方） <br />
+  旅館名稱 （以下簡稱乙方） </p>
+<p>第六條  （定金之收取） <br>
+  甲方解約時，得要求乙方依下列標準返還已繳之定金： <br />
+  一、甲方解約通知於預定住宿日十四日前到達者，得請求乙方退還已付定金百分之百。 <br />
+  二、甲方解約通知於預定住宿日十至十三日前到達者，得請求乙方退還已付定金百分之七十。 <br />
+  三、甲方解約通知於預定住宿日七至九日前到達者，得請求乙方退還已付定金百分之五十。 <br />
+  四、甲方解約通知於預定住宿日四至六日前到達者，得請求乙方退還已付定金百分之四十。 <br />
+  五、甲方解約通知於預定住宿日二至三日前到達者，得請求乙方退還已付定金百分之三十。 <br />
+  六、甲方解約通知於預定住宿日一日前到達者，得請求乙方退還已付定金百分之二十。 <br />
+  七、甲方解約通知於預定住宿日當日到達或怠於通知者，乙方得不退還甲方已付全部定金。</p>
+
+      <p>◎請注意◎</p>
+      <p>如以信用卡交易完成後，本飯店不會發電話給您更改任何付款方式。</p>
+      <p>如有疑問，請撥打06-259-8822客房電話確認 。 </p>
+</div>
+
+<div class="confirm">
+<form id="form1" name="form1" method="post" action="">
+<input type="checkbox"> 我已閱讀並同意以上取消訂房須知事項，並請繼續選擇以下兩項之一：
+</form>
+
+<p class="check"><a href="https://docs.google.com/forms/d/176crxI-SDyX6Dcxj3ogbkVMpd1A6KQ3psHzYF2WNMiM/viewform" target="_blank">
+1. 與【華都櫃檯】聯絡訂房</a></p>
+<p class="check"><a href="https://www.ezhotel.com.tw/hwadu/" target="_blank">
+2. 使用【信用卡】線上訂房</a></p>
+
+</div>
+
+<footer class="w3-container w3-blue">
+  <p class="foot">台南‧華都商務飯店 HWA-DU HOTEL│台南市北區文賢路1192號│1192 , Wen-Shian Rd.Tainan, Taiwan, R.O.C.<br> TEL:06-259-8822 FAX:06-259-8855 | Line：hwadu│Skype：hwaduhotel│Mail：hwaduhotel@gmail.com <a href="https://www.facebook.com/hwadu" target="_blank"><i class="fa fa-facebook-official"></a></i></p>
+</footer>
+
+</body>
+</html>

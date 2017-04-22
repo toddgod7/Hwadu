@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>華都商務飯店</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+
+</head>
+<body>
+
+<div class="w3-top">
+	<div class="w3-row w3-black">
+		  <div class="w3-col m3">
+      		<a href="index.html" style="text-decoration: none;"><img src="logo.jpg" style="height:30%;"></a>
+    	</div>
+    	<div class="w3-col m2">
+      		<h2><a href="about.html" style="text-decoration: none;">飯店介紹</a></h2>
+    	</div>
+    	<div class="w3-col m2">
+      		<h2><a href="accommodation.html" style="text-decoration: none;">客房介紹</a></h2>
+    	</div>
+    	<div class="w3-col m2">
+      		<h2><a href="facilities.html" style="text-decoration: none;">設備服務</a></h2>
+    	</div>
+    	<div class="w3-col m2">
+      		<h2><a href="reservation.html" style="text-decoration: none;">線上訂房</a></h2>
+    	</div>
+    	<div class="w3-col m1">
+      		<h2 id="flip">☰</h2>
+      		<div id="panel">
+      			<p><a href="aboutsim.html">簡體中文</a> <br> <a href="index.html" >繁體中文</a> <br> <a href="aboutjpn.html">日本語</a> <br> <a href="abouteng.html">English</a></p>
+      		</div>
+    	</div>
+	</div>
+</div>
+
+<br><br><br>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 9</div>
+    <img src="2.大門.jpg" style="width:100%; height:600px;">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 9</div>
+    <img src="3.大門外觀.jpg" style="width:100%; height:600px;">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 9</div>
+    <img src="6.餐廳.jpg" style="width:100%; height:600px;">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 9</div>
+    <img src="9.單人房.jpg" style="width:100%; height:600px;">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 9</div>
+    <img src="4.交誼廳-W1280.jpg" style="width:100%; height:600px;">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 9</div>
+    <img src="10.雙人房.jpg" style="width:100%; height:600px;">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 9</div>
+    <img src="11.四人房.jpg" style="width:100%; height:600px;">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 9</div>
+    <img src="12.VIP客房-客廳.jpg" style="width:100%; height:600px;">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 9</div>
+    <img src="13.VIP客房-臥室.jpg" style="width:100%; height:600px;">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span> 
+  <span class="dot" onclick="currentSlide(9)"></span>    
+</div>
+
+<hr> 
+
+<div class="w3-container news">
+	<h1>最新消息</h1>
+	<div class="w3-row">
+		<div class="w3-col m4"><a href="reservation.html">【 官網最新訂房活動 】</a></div>
+		<div class="w3-col m4"><a href="8.衛生優良獎.jpg" target="_blank">【 獲頒104年度 衛生優良旅館 】</a></div>
+		<div class="w3-col m4"><a href="http://www.easytravel.com.tw/ehotel/usercommend.aspx?n=7391" target="_blank">【 住客對華都的評薦 】</a></div>
+	</div>
+</div>
+
+<hr>
+
+<div class="w3-container news">
+	<h1>媒體報導</h1>
+	<div class="w3-row report">
+		<div class="w3-col m6">
+			<p>Janet來訪</p>
+			<img src="5.Janet來訪-W1280.jpg" style="width:100%; height:400px;">
+		</div>
+		<div class="w3-col m6">
+			<p>戀愛巴士來訪</p>
+			<img src="7.戀愛巴士來訪.jpg" style="width:100%; height:400px;">
+		</div>
+	</div>
+</div>
+
+<hr>
+
+<div class="w3-container">
+	<h1 class="map">Google map</h1>
+<iframe width="100%" height="450px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" align:"middle" src="https://maps.google.com.tw/maps?f=q&source=s_q&hl=zh-TW&geocode=&q=%E5%8F%B0%E5%8D%97%E5%B8%82%E6%96%87%E8%B3%A2%E8%B7%AF1192+%E8%99%9F&sll=23.018053,120.19324&sspn=0.010724,0.021136&brcurrent=3,0x346e767276251953:0x8b67fb153133b0d5,0,0x346e7ccc953ffe13:0xd47f4caaa5dc764e&ie=UTF8&hq=&hnear=704%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E6%96%87%E8%B3%A2%E8%B7%AF1192%E8%99%9F&t=m&ll=23.018049,120.193262&spn=0.037919,0.054932&z=14&iwloc=A&output=embed"></iframe>
+</div>
+
+<footer class="w3-container w3-blue">
+	<p class="foot">台南‧華都商務飯店 HWA-DU HOTEL│台南市北區文賢路1192號│1192 , Wen-Shian Rd.Tainan, Taiwan, R.O.C.<br> TEL:06-259-8822 FAX:06-259-8855 | Line：hwadu│Skype：hwaduhotel│Mail：hwaduhotel@gmail.com <a href="https://www.facebook.com/hwadu" target="_blank"><i class="fa fa-facebook-official"></a></i></p>
+</footer>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+</body>
+</html>
